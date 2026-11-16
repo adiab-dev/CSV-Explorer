@@ -52,3 +52,18 @@ I always felt that the task of looking through or editing CSV files was daunting
   ![Github Repository Creation](screenshots/Github%20Repo%20Creation.png)
   ![Initial Empty Repository](screenshots/Initial%20empty%20Repo.png)
   ![Folder Structure](screenshots/Folder%20structure.png)
+
+### Day 2 — Flask backend, working uploads and downloads
+
+**Objectives:** Create the flask backend in app.py, and draft a placeholder index.html to use the flask backend functionality, and allow user to upload CSV files only and be able to download them
+
+- **Implementation:** changed main.py to app.py so it is easier to work with flask, created a requirements.txt to include dependencies required by app.py, then created a python venv and used pip install -r requirements.txt to install the dependencies. Added the venv folder and pycache folder to the .gitignore so that they aren't uploaded with the project
+
+- **Challenges:** Understanding flask, and how to upload, store and download files
+
+- **Solutions:** Used sample code from flask's website and geeksforgeeks and tweaked it to the way I want the app to work
+
+- **What I learned:** Basic flask usage, file upload and download management
+
+- **Screenshots:**
+  ![Updated Folder Structure](screenshots/Folder%20structure%202.png)

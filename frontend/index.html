@@ -1,0 +1,19 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UPLOAD FILE</title>
+    </head>
+    <body>
+        <h1>Upload new File</h1>
+        <form method=post enctype=multipart/form-data>
+        <input type=file name=file accept=".csv" required>
+        <input type=submit value=Upload>
+        </form>
+        {% if download_id %}
+            <a href="{{ url_for('download', file_id=download_id) }}">
+                Download CSV
+            </a>
+        {% endif %}
+    </body>
+</html>
