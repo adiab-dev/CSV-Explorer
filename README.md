@@ -49,7 +49,7 @@ CSV Explorer uses a frontend/backend architecture.
 csv-explorer/
 │
 ├── backend/
-│   ├── main.py
+│   ├── app.py
 │   └── csv_processor.py
 │
 ├── frontend/
